@@ -7,8 +7,7 @@ from pathlib import Path
 
 from unityagents import UnityEnvironment
 
-#env = UnityEnvironment(file_name='/home/ignitelab/reinforcement-learning-projects/reacher/Reacher_Linux/Reacher.x86_64')
-env = UnityEnvironment(file_name='./Reacher_Linux/Reacher.x86_64')
+env = UnityEnvironment(file_name='/home/ignitelab/reinforcement-learning-projects/reacher/Reacher_Linux/Reacher.x86_64')
 
 from ddpg_agent import Agent
 
